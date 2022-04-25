@@ -1,6 +1,7 @@
 git config user.name "Mahendra"
 git config user.email "mahendra.dalaram18@siesgst.ac.in" 
 cd .git
+cat config
 
 
 
