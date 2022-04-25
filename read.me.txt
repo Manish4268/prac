@@ -22,3 +22,8 @@ Docker tag new:latest manish8691/final:1
 Docker login
 Docker images
 Docker push manish8691/final:1
+ansible#################
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo add-apt-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
