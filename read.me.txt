@@ -1,12 +1,35 @@
+push
+#########################################################################
+sudo apt-get install git
+mkdir df
+cd df
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Manish4268/ddfsd.git
+git push  origin main
+username-github username
+pass-key 
+
+pull#########################################################################
+
+git init
+git remote add origin https://github.com/Manish4268/ddfsd.git
+git pull  origin main
+
+git log
+
+################################################################################
+
 Mkdir docker
 Cd docker
 Sudo bash
-Pull 
+Pull ###############################################################
 Docker images
 Docker pull ubuntu
 Docker images
 (optional)
-Push
+Push #################################################################
 Docker images
 Docker run -itd ubuntu
 Docker ps
@@ -22,7 +45,9 @@ Docker tag new:latest manish8691/final:1
 Docker login
 Docker images
 Docker push manish8691/final:1
-ansible#################
+
+
+ansible###############################################################
 $ sudo apt update
 $ sudo apt install software-properties-common
 $ sudo add-apt-repository --yes --update ppa:ansible/ansible
