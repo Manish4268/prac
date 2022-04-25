@@ -1,0 +1,24 @@
+Mkdir docker
+Cd docker
+Sudo bash
+Pull 
+Docker images
+Docker pull ubuntu
+Docker images
+(optional)
+Push
+Docker images
+Docker run -itd ubuntu
+Docker ps
+Docker exec -it <container-id> bash
+(inside ubuntu)
+Echo abcd>newfile
+Cat newfile
+Exit
+(outside)
+Docker ps
+Docker commit <conatiner-id> new
+Docker tag new:latest manish8691/final:1
+Docker login
+Docker images
+Docker push manish8691/final:1
