@@ -8,6 +8,7 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/Manish4268/ddfsd.git
 git push  origin main
+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
 username-github username
 pass-key 
 
